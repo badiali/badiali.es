@@ -1,0 +1,27 @@
+{
+  "name": "badiali.es",
+  "version": "1.0.0",
+  "description": "Diseño estilo LinkTree para la landing page de mi sitio web badiali.es",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badiali/badiali.es.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "linktree",
+    "sass"
+  ],
+  "author": {
+    "name": "Luis Badiali",
+    "email": "info@badiali.es",
+    "url": "https://badiali.es"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/badiali/badiali.es/issues"
+  },
+  "homepage": "https://github.com/badiali/badiali.es#readme"
+}
