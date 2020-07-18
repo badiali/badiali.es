@@ -2,6 +2,7 @@
   "name": "badiali.es",
   "version": "1.0.0",
   "description": "Diseño estilo LinkTree para la landing page de mi sitio web badiali.es",
+  "private": true,
   "scripts": {
     "copy-fonts": "copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* ./assets/fonts",
     "copy-jquery": "copyfiles -f node_modules/jquery/dist/jquery.min.js ./assets/js",
