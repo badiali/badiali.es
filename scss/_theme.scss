@@ -1,6 +1,6 @@
 body {
   font-family: $font-family-monospace;
-  background: url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80') no-repeat center;
+  background: url('../img/bg-image.jpg') no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   &:after {
