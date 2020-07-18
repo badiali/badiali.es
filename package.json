@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "Diseño estilo LinkTree para la landing page de mi sitio web badiali.es",
   "scripts": {
+    "copy-fonts": "copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* ./assets/fonts",
+    "copy-jquery": "copyfiles -f node_modules/jquery/dist/jquery.min.js ./assets/js",
+    "copy-bootstrap-js": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./assets/js",
+    "copy": "npm run copy-fonts && npm run copy-jquery && npm run copy-bootstrap-js",
+    "css-compile": "node-sass --include-path node_modules --output-style nested scss/style.scss assets/css/style.css",
+    "css-prefix": "postcss --replace ../assets/css/style.css --use autoprefixer",
+    "css": "npm run css-compile && npm run css-prefix",
+    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "start": "npm install && npm run copy && npm run css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +32,17 @@
   "bugs": {
     "url": "https://github.com/badiali/badiali.es/issues"
   },
-  "homepage": "https://github.com/badiali/badiali.es#readme"
+  "homepage": "https://github.com/badiali/badiali.es#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "copyfiles": "^2.3.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "postcss-cli": "^7.1.1"
+  }
 }
