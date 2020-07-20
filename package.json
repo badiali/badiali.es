@@ -9,7 +9,7 @@
     "copy-bootstrap-js": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./assets/js",
     "copy": "npm run copy-fonts && npm run copy-jquery && npm run copy-bootstrap-js",
     "css-compile": "node-sass --include-path node_modules --output-style compressed scss/style.scss assets/css/style.css",
-    "css-prefix": "postcss --replace ./assets/css/style.css --use autoprefixer",
+    "css-prefix": "postcss --replace ./assets/css/style.css",
     "css": "npm run css-compile && npm run css-prefix",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
     "start": "npm install && npm run copy && npm run css",
@@ -44,6 +44,8 @@
     "copyfiles": "^2.3.0",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
-    "postcss-cli": "^7.1.1"
+    "postcss-cli": "^7.1.1",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
   }
 }
