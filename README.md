@@ -2,10 +2,13 @@
 
 # badiali.es
 Diseño (estilo LinkTree) con Bootstrap para la landing page de mi sitio web badiali.es
+
+Puedes descargar y usar esta plantilla de manera libre ⭐️
+
 - **PWA** implementado.
-- Disponibles los iconos de **FontAwesome**
+- Disponibles los iconos de **FontAwesome**.
 - Al compilar limpia el css de estilos no usados.
-- Actualmente **no** necesita las librerias JS de jQuery y Bootstrap
+- Actualmente **no** necesita las librerias JS de jQuery y Bootstrap.
 
 ## Instalación
 
