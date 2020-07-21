@@ -81,9 +81,21 @@
       </div>
     </div>
     <script type="module">
-      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-      const el = document.createElement('pwa-update');
-      document.body.appendChild(el);
+      window.addEventListener('beforeinstallprompt', function(e) {
+        e.userChoice.then(function(choiceResult) {
+          console.log(choiceResult.outcome);
+          if(choiceResult.outcome == 'dismissed') {
+            console.log('Instalación cancelada');
+          } else {
+            console.log('Instalación completada');
+          }
+        });
+      });
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
     </script>
   </body>
 </html>
