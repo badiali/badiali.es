@@ -10,6 +10,11 @@ Puedes descargar y usar esta plantilla de manera libre ⭐️
 - Al compilar limpia el css de estilos no usados.
 - Actualmente **no** necesita las librerias JS de jQuery y Bootstrap.
 
+## Performance
+Performance y accesibilidad auditada con Google Lighthouse
+
+![Performance 100% con Lighthouse](https://user-images.githubusercontent.com/8589135/88642300-97f5fb80-d0c0-11ea-836e-9af24ea61734.png)
+
 ## Instalación
 
 1. `npm install`
