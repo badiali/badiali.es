@@ -1,4 +1,4 @@
-![Luis Badiali](https://repository-images.githubusercontent.com/280487130/88871900-cae8-11ea-940f-2eef5f3d07a9)
+![Luis Badiali](https://repository-images.githubusercontent.com/280487130/1ce01580-d0bf-11ea-8de2-c15f264f8e6e)
 
 # badiali.es
 Diseño (estilo LinkTree) con Bootstrap para la landing page de mi sitio web badiali.es
