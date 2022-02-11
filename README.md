@@ -26,16 +26,16 @@ Puedes ejecutar el comando `npm run copy` para copiar las fuentes y los ficheros
 
 ```
 "dependencies": {
-  "@fortawesome/fontawesome-free": "^5.14.0",
-  "bootstrap": "^4.5.0",
-  "jquery": "^3.5.1"
+  "@fortawesome/fontawesome-free": "5.14.0",
+  "bootstrap": "4.5.2",
+  "jquery": "3.5.1"
 },
 "devDependencies": {
-  "autoprefixer": "^9.8.5",
-  "copyfiles": "^2.3.0",
+  "autoprefixer": "^9.8.8",
+  "copyfiles": "^2.4.1",
   "node-sass": "^4.14.1",
-  "nodemon": "^2.0.4",
-  "postcss-cli": "^7.1.1",
+  "nodemon": "^2.0.15",
+  "postcss-cli": "^7.1.2",
   "postcss-uncss": "^0.17.0",
   "uncss": "^0.17.3"
 }
