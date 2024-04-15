@@ -1,7 +1,7 @@
 ![Luis Badiali](https://repository-images.githubusercontent.com/280487130/1ce01580-d0bf-11ea-8de2-c15f264f8e6e)
 
-# badiali.es
-Diseño (estilo LinkTree) con Bootstrap para la landing page de mi sitio web badiali.es
+# Landing estilo LinkTree con Bootstrap
+Diseño (estilo LinkTree) con Bootstrap para landing page
 
 Puedes descargar y usar esta plantilla de manera libre ⭐️
 
